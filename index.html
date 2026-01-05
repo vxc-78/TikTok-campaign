@@ -21,6 +21,7 @@
         justify-content: center;
         align-items: center;
         padding: 20px;
+        overflow-x: hidden;
     }
 
     .container {
@@ -31,6 +32,7 @@
         padding: 48px 32px;
         box-shadow: 0 20px 60px rgba(0,0,0,0.2);
         text-align: center;
+        position: relative;
     }
 
     .gift-icon-wrapper {
@@ -114,6 +116,10 @@
     }
 
     @media (max-width: 480px) {
+        body {
+            padding: 10px;
+        }
+
         .container {
             padding: 40px 24px;
         }
